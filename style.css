@@ -1,0 +1,9 @@
+body {
+  background-color: skyblue;
+  font-family: 'Merriweather', serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 100px;
+}
