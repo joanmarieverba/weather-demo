@@ -4,7 +4,12 @@ const url = "http://api.openweathermap.org/data/2.5/weather?q=Chicago&APPID=2ab5
 
 $.ajax({
     url: url,
-     success: function (result) {
+    success: function (result) {
         console.log(result);
+    
+        console.log("name", result.name);
+
+
+
     }
 });
