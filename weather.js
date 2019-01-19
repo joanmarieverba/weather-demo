@@ -8,6 +8,10 @@ $.ajax({
         console.log(result);
     
         console.log("name", result.name);
+        $("#location").text(result.name);
+
+
+        $("#sky").text(result.weather[0].description);
 
 
 
