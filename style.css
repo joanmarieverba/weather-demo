@@ -8,6 +8,10 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+h1 {
+  color:beige;
+}
+
 .header {
   text-align: center;
   margin-bottom: 100px;
