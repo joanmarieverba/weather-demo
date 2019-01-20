@@ -1,5 +1,10 @@
 body {
-  background-color: skyblue;
+  /* background-color: skyblue; */
+  background-image: url("sunset.jpg");
+  background-size: 100%;
+  min-height: 100%;
+  width: 100%;
+
   font-family: 'Merriweather', serif;
 }
 
