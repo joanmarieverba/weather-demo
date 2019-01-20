@@ -15,8 +15,8 @@ $.ajax({
         $("#temperature").html(displayTemp);
     //Retrieve and calculate wind speed
         let windSpeed = Math.round(result.wind.speed / .44704)
-        let wind = windSpeed.toString();
-        $("#wind").text(wind);
+        let displayWind = `Wind: ${windSpeed} mph`
+        $("#wind").text(displayWind);
     //Retrieve and calculate sky condition
         let displaySky = `Sky condition: ${result.weather[0].description}`
         $("#sky").text(displaySky);
