@@ -11,17 +11,15 @@ $.ajax({
         $("#location").html(displayCity);
     //Retrieve and calculate temperature
         let F = Math.round(result.main.temp * (9 / 5) - 459.67);
-        // let Fahrenheit = F.toString();
-        // $("#temperature").text(Fahrenheit);
         let displayTemp = `Temperature: ${F}&#176;F`;
         $("#temperature").html(displayTemp);
-
     //Retrieve and calculate wind speed
         let windSpeed = Math.round(result.wind.speed / .44704)
         let wind = windSpeed.toString();
         $("#wind").text(wind);
     //Retrieve and calculate sky condition
-        $("#sky").text(result.weather[0].description);
+        let displaySky = `Sky condition: ${result.weather[0].description}`
+        $("#sky").text(displaySky);
 
 
 
