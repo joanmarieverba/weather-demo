@@ -1,6 +1,6 @@
 "use strict"
 //Construct URL with Key
-const url = "http://api.openweathermap.org/data/2.5/weather?q=Chicago&APPID=2ab5a5b18737e945b5af9cae2e8e1ffe";
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Chicago&APPID=2ab5a5b18737e945b5af9cae2e8e1ffe";
 // Make API call
 $.ajax({
     url: url,
